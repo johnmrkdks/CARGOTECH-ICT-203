@@ -99,11 +99,11 @@ span {
   border-left: 5px var(--primary-color) solid;
   padding-left: 10px;
   font-size: 30px;
+  transition: 0.3s ease;
 }
 
 .logo:hover {
   color: var(--primary-color);
-  transition: 0.2s ease;
 }
 
 /*========== Navbar ==========*/
@@ -126,6 +126,7 @@ span {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1px;
+  transition: 0.2s ease;
 }
 
 .navbar ul li a:hover {
@@ -134,7 +135,6 @@ span {
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgb(56, 115, 236, 0.2);
   border-bottom: none;
-  transition: 0.3s ease;
 }
 
 .navbar .flex {
@@ -167,14 +167,13 @@ span {
   color: var(--primary-color);
   padding: 0 10px;
   border-radius: 40px;
-  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .introduction #ivan:hover {
   background-color: var(--primary-color);
   color: #fff;
   box-shadow: 4px 4px 10px rgb(56, 115, 236, 0.5);
-  transition: 0.3s ease;
 }
 
 /* My Image */
@@ -205,12 +204,12 @@ span {
   font-size: 45px;
   font-weight: 500;
   border-bottom: var(--border-bottom-solid);
+  transition: 0.3s ease;
 }
 
 .about-header h1:hover {
   color: var(--primary-color);
   border-bottom: 4px #fff solid;
-  transition: all 0.3s ease;
 }
 
 .about {
@@ -309,12 +308,12 @@ span {
   font-size: 45px;
   font-weight: 500;
   border-bottom: var(--border-bottom-solid);
+  transition: 0.3s ease;
 }
 
 .technical-skills h1:hover {
   color: var(--primary-color);
   border-bottom: 4px #fff solid;
-  transition: all 0.3s ease;
 }
 
 .skill-card {
@@ -342,10 +341,11 @@ span {
   color: #fff;
   letter-spacing: 1px;
   text-align: center;
+  transition: 0.3s ease;
 }
 
 .skill-bar .progress-line:hover {
-  transform: scale(1.1) translateZ(0);
+  transform: scale(1.1);
 }
 
 .html {
