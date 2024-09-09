@@ -5,36 +5,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="icon" href="images/round.png" type="image/icon type">
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Home | Cargotech</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+    <style>
+        body {
+            background-image: url('./images/my-activities/img/landingpage.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Keeps the background fixed when scrolling */
+            opacity: 90;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Navbar -->
     <div class="navbar">
-        <div class="container flex">
-            <h1><a href="index.html" class="logo">My Portfolio</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a href=" about-me.html">About Me</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="my-activities.html">My Activities</a></li>
-                </ul>
-            </nav>
+        <div class="container navbar-top">
+                <div>
+                        <a href="index.html" class="logo">
+                            <h1>CAR<span style="color:red;">GO</span></h1>
+                            <p>T   e  c  h<span style="color:red"></span></p>
+                        </a>
+                </div>
+
+                    <div class="navbar-bottom">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html" class="current">Home</a></li>
+                                <li><a href=" about.html">About</a></li>
+                                <li><a href="products.html">Services</a></li>
+                                <li><a href="contacts.html">Contacts</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
         </div>
     </div>
 
-    <!-- Content -->
-    <div class="container grid-homepage">
-        <div class="introduction">
-            <h1>Hi,<br>I'm <a href="about-me.html" id="ivan">Ivan</a>.</h1>
+        <div class="container grid-homepage">
+            <div class="introduction">
+                <h1>Welcome<br>to <span id="jm"><a href="products.html">Cargotech</a></span>.</h1>
+            </div>
         </div>
-        <div class="model">
-            <img src="images/me1.png" alt="Ivan">
-        </div>
+
+
+    <div class="shop-now">
+        <a href="products.html" class="button">Avail our services now!</a>
     </div>
-</body>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Cargotech. All rights reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </body>
 
 </html>
